@@ -9,51 +9,58 @@
 </head>
 <body>
     <header class="head">
-        <div class="head__menu">
-            <input class="button head__button1" type="image" src="images/burger.svg" alt="Меню">
+        <div class="head__column">
+            <div class="head__menu">
+            <button class="button head__button"><img src="asserts/images/burger.svg" alt="Меню"></button>
+            </div>
+            <div class="head__logo">
+            <img class="images head__img" src="asserts/images/Group.svg" alt="CPS">
+            </div>
         </div>
-        <div class="head__polka head__polka1"></div>
-        <div class="head__title">
-            <img class="images head__img" src="images/Group.svg" alt="CPS">
-        </div>
-        <div class="head__call">
-            <input class="button head__button4" type="image" src="images/call.svg" alt="Звонок">
-        </div>
-        <div class="head__chat">
-            <input class="button head__button5" type="image" src="images/chat.svg" alt="Чат">
-        </div>
-        <div class="head__profile">
-            <input class="button head__button6" type="image" src="images/profile.svg" alt="Профиль">
-        </div>
-        <div class="head__polka head__polka2"></div>
-        <div class="head__repair">
-            <div class="head__content" >Оставить заявку</div>
-            <input  class="button head__button2" type="image" src="images/repair.svg" alt="Ремонт">
-        </div>        
-        <div class="head__checkstatus">
-            <div class="head__content">Статус ремонта</div>
-            <input  class="button head__button3" type="image" src="images/checkstatus.png" alt="Проверить заказ">
+        <div class="head__column">
+            <div class="head__call">
+            <button class="button head__button"><img src="asserts/images/call.svg" alt="Звонок"></button>
+            </div>
+            <div class="head__chat">
+            <button class="button head__button"><img src="asserts/images/chat.svg" alt="Чат"></button>
+            </div>
+            <div class="head__profile">
+            <input class="button head__button" type="image" src="asserts/images/profile.svg" alt="Профиль">
+            </div>
+        </div> 
+        <div class="head__column">   
+            <div class="head__repair">
+            <button class="button head__button"><img src="asserts/images/repair.svg" alt="Ремонт"></button>
+            </div>        
+            <div class="head__checkstatus">
+            <button class="button head__button"><img src="asserts/images/checkstatus.png" alt="Проверить заказ"></button>
+            </div>
         </div>
     </header>
-    <div class="block">
-        <h1 class="block__h1"><b>Услуги сервисы</b></h1>
-    
-    <div class="block__nav"><nav class="nav"> 
-        <ul>
-            <li class="block__nav1"><input class="button block__button1" type="submit" value="Ремонтируемые устройства"></li>
-            <li class="block__nav2"><input class="button block__button2" type="submit" value="Дополнительные услуги"></li>
-            <li class="block__nav3"><input class="button block__button3" type="submit" value="Цены на услуги"></li>
-            <li class="block__nav4"><input class="button block__button4" type="submit" value="Ремонтируемы бренды"></li>
-            <li class="block__nav5"><input class="button block__button5" type="submit" value="Адреса сервисных центров"></li>
-            <li class="block__nav6"><input class="button block__button6" type="submit" value="Отзывы"></li>
-        </ul>
-        <div class="block__shadow"></div>
-    </nav></div>
-    <div class="block__content">
-        Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-        <p> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span>, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким</span></p>.</div>
-    <div class="block__further"><button type="submit" class="button block__button7"><img src="images/icon.svg" alt=""> Читать далее</button></div>
-    <div class="block__images"> <img src="images/Picture Copy.jpg" alt=""></div>
-    </div>
+    <main class="main-content">
+        <h1 class="main-content__title">Услуги сервисы</h1>
+
+            <nav class="main-content__nav"> 
+            <ul class="main-content__list">
+                <li class="main-content__row"><a href="#" class="button main-content__button"  autofocus>Ремонтируемые устройства</a></li>
+                <li class="main-content__row"><a href="#" class="button main-content__button">Дополнительные услуги</a></li>
+                <li class="main-content__row"><a href="#" class="button main-content__button">Цены на услуги</a></li>
+                <li class="main-content__row"><a href="#" class="button main-content__button">Ремонтируемы бренды</a></li>
+                <li class="main-content__row"><a href="#" class="button main-content__button">Адреса сервисных центров</a></li>
+                <li class="main-content__row"><a href="#" class="button main-content__button">Отзывы</a></li>
+            </ul>
+            <div class="main-content__shadow"></div>
+            </nav>
+        <div class="main-content__content">
+            <div class="main-content__letter">   
+                <div class="main-content__text">
+                <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                <span class="main-content__shadow-text"><p> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p></span>
+                </div>
+                <div class="main-content__further"><button  class="button main-content__button main-content__button-img"><img src="asserts/images/icon.svg" alt="">  Читать далее</button></div>
+            </div>
+            <div class="main-content__images"><img src="asserts/images/Picture Copy.jpg" alt=""></div>
+        </div>    
+    </main>
 </body>
 </html>
