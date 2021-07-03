@@ -107,6 +107,9 @@ margin-right: 10px;
      display: flex;
      padding: 0;
 }
+     .main-content__list::-webkit-scrollbar{
+     width: 0!important
+}
 .main-content__nav{
      display: flex;
      margin-bottom: 20px;
