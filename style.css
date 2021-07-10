@@ -18,12 +18,12 @@ font-style: normal;
      }
 .button{
      background-color: white;
-     border: none;
+     border: 3px solid transparent;
 }
 .button:focus{
      background-color: white;
      border-radius: 6px;
-     outline:none;
+     outline: none;
      border:  3px solid #41F6D7;
 }
 
@@ -36,7 +36,7 @@ body{
      font-family: 'TT Lakes Condensed Thin';
 }
 .head{
-     min-width: 320px;
+     max-width: 320px;
      min-height: 88px;
      display: flex;
      flex-wrap: wrap;
@@ -98,6 +98,7 @@ margin-right: 10px;
      white-space: nowrap;
      align-self: center;
      z-index: 1;
+
 }
 .main-content__list{
      list-style: none;
@@ -107,12 +108,12 @@ margin-right: 10px;
      display: flex;
      padding: 0;
 }
-     .main-content__list::-webkit-scrollbar{
+.main-content__list::-webkit-scrollbar{
      width: 0!important
 }
 .main-content__nav{
      display: flex;
-     margin-bottom: 20px;
+ 
 }
 .main-content__shadow{
      justify-content: flex-end;
@@ -336,11 +337,12 @@ margin-right: 10px;
           flex-grow: 1;
           justify-content: flex-end ;
           margin-right: 10px;
+          margin-left: 10px;
           display: inline-flex;
      }
      .main-content{
           background-color: #F8F8F8;
-          max-width: 1120px;
+          min-width: 1120px;
           min-height: 535px;
           display: flex;
           align-content: flex-start;
@@ -390,12 +392,12 @@ margin-right: 10px;
      .main-content__button {
       background-color: #F8F8F8;
       font-weight: bold;
-      font-size: 16px;
+      font-size: 15px;
       min-height: 40px;
       min-width: 30px;
       color: #7E7E82;
       text-decoration: none;
-      padding: 0 16px 0 16px;
+      padding: 0 10px;
      }
      .main-content__text, .main-content__button{
           font-size: 18px;
