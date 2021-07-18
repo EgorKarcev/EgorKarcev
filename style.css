@@ -20,11 +20,13 @@ font-style: normal;
      background-color: white;
      border: 3px solid transparent;
 }
-.button:focus{
+.button:focus, .button:hover{
      background-color: white;
      border-radius: 6px;
      outline: none;
      border:  3px solid #41F6D7;
+     cursor: pointer;
+     cursor:cell;
 }
 
 @media screen and (min-width: 320px){
